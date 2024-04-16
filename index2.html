@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lekhak - Book and Author Landing Page</title>
+  <!-- Favicon -->
+  
+  <!-- Google Fonts -->
+  <link href="static/css/css2.css" rel="stylesheet">
+  <!-- UIKIT CSS -->
+  <link rel="stylesheet" href="static/css/uikit.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="static/css/all.min.css">
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="static/css/theme.css">
+  <!-- Utilities CSS -->
+  <link rel="stylesheet" href="static/css/utilities.css">
+</head>
+
+<body>
+
+  <!-- Preloader Starts -->
+  <div class="loader js-preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <!-- Preloader Ends -->
+
+  <!-- Header Starts -->
+  <header class="header-cont">
+    <div class="header" data-uk-sticky="start: 200; animation: uk-animation-slide-top">
+      <div class="uk-container">
+        <div class="header-inner">
+          <div class="header-inner-left">
+            <!-- Header Logo Starts -->
+            <div class="header-logo">
+              <a href="index.html">
+                <img src="static/picture/logo.png" alt="Lekhak">
+              </a>
+            </div>
+            <!-- Header Logo Ends -->
+          </div>
+          <div class="header-inner-right">
+            <!-- Desktop Menu Starts -->
+            <div class="header-nav">
+              <ul>
+                <li class="has-dropdown">
+                  <a class="active" href="" data-uk-scroll="uk-scroll">Home</a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="index.html">Book Review Home One</a>
+                    </li>
+                    <li>
+                      <a class="active" href="">Book Review Home Two</a>
+                    </li>
+                    <li>
+                      <a href="index3.html">Book Author Home One</a>
+                    </li>
+                    <li>
+                      <a href="index4.html">Book Author Home Two</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#about" data-uk-scroll="offset: 80;">About</a>
+                </li>
+                <li>
+                  <a href="#chapters" data-uk-scroll="offset: 80;">Chapters</a>
+                </li>
+                <li>
+                  <a href="#author" data-uk-scroll="offset: 80;">Author</a>
+                </li>
+                <li>
+                  <a href="#reviews" data-uk-scroll="offset: 80;">Reviews</a>
+                </li>
+                <li>
+                  <a href="#pricing" data-uk-scroll="offset: 80;">Pricing</a>
+                </li>
+                <li>
+                  <a href="#contact" data-uk-scroll="offset: 80;">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!-- Desktop Menu Ends -->
+            <!-- Header Desktop Button Starts -->
+            <div class="ml-60 header-btn">
+              <a href="" class="theme-btn theme-btn-md theme-btn-primary" target="_self">
+                <span class="theme-btn-text">Get It Now</span></a>
+            </div>
+            <!-- Header Desktop Button Ends -->
+            <!-- Mobile Menu Trigger Starts -->
+            <div class="mobile-menu-trigger">
+              <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+            <!-- Mobile Menu Trigger Ends -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Sidebar Starts -->
+    <div class="mobile-menu-overlay"></div>
+    <div class="mobile-menu-sidebar">
+      <div class="mobile-menu-sidebar-header">
+        <!-- Mobile Logo Starts -->
+        <div class="mobile-logo">
+          <a href="index.html">
+            <img src="static/picture/logo-white.png" alt="Lekhak">
+          </a>
+        </div>
+        <!-- Mobile Logo Ends -->
+        <div class="mobile-close">
+          <a href="#">
+            <i class="fa-solid fa-xmark"></i>
+          </a>
+        </div>
+      </div>
+      <!-- Mobile Nav Starts -->
+      <div class="mobile-nav mt-40">
+        <ul class="mobile-menu"></ul>
+      </div>
+      <!-- Mobile Nav Ends -->
+      <!-- Mobile Button Starts -->
+      <div class="px-20 mt-40">
+        <a href="" class="theme-btn theme-btn-md theme-btn-primary" target="_self">
+          <span class="theme-btn-text">Get It Now</span></a>
+      </div>
+      <!-- Mobile Button Ends -->
+    </div>
+    <!-- Mobile Sidebar Ends -->
+  </header>
+  <!-- Header Ends -->
+
+  <!-- Section Home Starts -->
+  <section id="home" class="page-section">
+    <div class="top-banner-two-cont py-120" style="background-image: url('static/image/library.jpg');">
+      <div class="uk-container">
+        <div class="uk-flex-middle" data-uk-grid="">
+          <!-- Banner Left Starts -->
+          <div class="uk-width-1-2@m">
+            <div data-uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
+              <div class="banner-text-cont mb-40">
+                <div class="meta-text meta-text-18 font-weight-600 text-white mb-15">
+                  Subscribe Now To Get
+                </div>
+                <h1 class="banner-section-title text-white">
+                  A Free Chapter Of This Book
+                </h1>
+              </div>
+              <form>
+                <div class="subscription-cont" data-uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
+                  <div class="form-group my-10">
+                    <div class="input-icon input-icon-white">
+                      <i class="fa-regular fa-paper-plane"></i>
+                    </div>
+                    <input type="email" class="form-input input-white" placeholder="Your Email Here">
+                  </div>
+                  <div class="form-btn my-10">
+                    <button type="submit" class="theme-btn theme-btn-lg theme-btn-primary">
+                      <span class="theme-btn-text">Subscribe</span></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- Banner Left Ends -->
+          <!-- Banner Right Starts -->
+          <div class="uk-width-1-2@m">
+            <div class="mt-40 mt-md-0" data-uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
+              <img src="static/picture/book-mockup-3.png" alt="Book">
+            </div>
+          </div>
+          <!-- Banner Right Ends -->
+        </div>
+      </div>
+    </div>
+    <!-- Video Call To Action Starts -->
+    <div class="py-120 bg-gray-900">
+      <div class="uk-container">
+        <div class="uk-flex-middle uk-flex-between" data-uk-grid="">
+          <div class="uk-width-2-3@s uk-width-3-4@m">
+            <div class="call-to-action" data-uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
+              <div class="meta-text meta-text-18 font-weight-600 text-white mb-15">
+                Reading A Good Book Is Always A pleasure
+              </div>
+              <h3 class="action-title text-white">Please Watch This Video & You will Be Happy To See Readers Reaction</h3>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-4@m">
+            <div data-uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
+              <div class="video-btn-item mt-40 mt-md-0 uk-flex-center uk-flex-right@s" data-uk-lightbox="uk-lightbox">
+                <a class="video-btn" href="#" data-caption="A Helpful Guide For Graphics Designer" data-attrs="width: 640; height: 360;">
+                  <i class="fa-solid fa-play"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video Call To Action Ends -->
+  </section>
+  <!-- Section Home Ends -->
+
+  <!-- Section About Starts -->
+  <section id="about" class="page-section">
+    <div class="py-120">
+      <div class="uk-container">
+        <!-- Section Title Starts -->
+        <div class="section-title-cont section-title-centered mb-80" data-uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true">
+          <div class="section-tag-line mb-15">
+            <div class="tag-before"></div>
+            About The Book
+            <div class="tag-after"></div>
+          </div>
+          <h2 class="section-title">
+            A Short Overview
+          </h2>
+        </div>
+        <!-- Section Title Ends -->
+        <div class="uk-flex-middle" data-uk-grid="">
+          <!-- About Left Image Starts -->
+          <div class="uk-width-1-2@m">
+            <div data-uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
+              <div class="image-box-two">
+                <img src="static/picture/about-two.jpg" alt="About">
+                <div class="thumb-img border-radius-4 veritcal-move-anim">
+                  <img src="static/picture/book1.jpg" alt="Book">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- About Left Image Ends -->
+          <!-- About Book Starts -->
+          <div class="uk-width-1-2@m">
+            <div data-uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
+              <p class="mb-25 mt-40 mt-md-0">It is an educational and a laugh provocation to study the world of UX differently solidly from the consumer's factor of view. Reading of this updated version of the book is a pleasure.</p>
+              <h4 class="h3 mb-40">Learning Points</h4>
+              <div class="check-list-cont">
+                <div class="check-list-item">
+                  <div class="list-header">
+                    <div class="list-icon">
+                      <i class="fa-solid fa-check-double"></i>
+                    </div>
+                    <h5 class="list-title">Drive data-driven decisions</h5>
+                  </div>
+                  <div class="list-body">
+                    Donec vitae nibh in lorem egestas consequat non in justo. Etiam quis tristique odio. Sed viverra justo orci sed porttitor.
+                  </div>
+                </div>
+                <div class="check-list-item">
+                  <div class="list-header">
+                    <div class="list-icon">
+                      <i class="fa-solid fa-check-double"></i>
+                    </div>
+                    <h5 class="list-title">Understand the business goals</h5>
+                  </div>
+                  <div class="list-body">
+                    Donec vitae nibh in lorem egestas consequat non in justo. Etiam quis tristique odio. Sed viverra justo orci sed porttitor.
+                  </div>
+                </div>
+                <div class="check-list-item">
+                  <div class="list-header">
+                    <div class="list-icon">
+                      <i class="fa-solid fa-check-double"></i>
+                    </div>
+                    <h5 class="list-title">Fight for the user</h5>
+                  </div>
+                  <div class="list-body">
+                    Donec vitae nibh in lorem egestas consequat non in justo. Etiam quis tristique odio. Sed viverra justo orci sed porttitor.
+                  </div>
+                </div>
+              </div>
+              <div class="border-top mt-40 pt-40">
+                <div class="info-cont">
+                  <div>
+                    <h6 class="mb-5">Publication Date:</h6>
+                    <div>May 2023</div>
+                  </div>
+                  <div>
+                    <h6 class="mb-5">Publisher:</h6>
+                    <div>Lorem</div>
+                  </div>
+                  <div>
+                    <h6 class="mb-5">Pages:</h6>
+                    <div>544</div>
+                  </div>
+                  <div>
+                    <h6 class="mb-5">ISBN:</h6>
+                    <div>1222333</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- About Book Ends -->
+        </div>
+      </div>
+    </div>
+    <!-- Call To Action Starts -->
+    <div class="banner-dark-with-bg-img py-120" style="background-image: url('static/image/cta-bg.jpg');">
+      <div class="uk-container uk-container-small">
+        <!-- Sub Section Title Starts -->
+        <div class="sub-section-title-cont section-title-centered mb-60" data-uk-scrollspy="cls: uk-animation-slide-top-medium; repeat: true">
+          <div class="tag-line text-white mb-15">Lots Of Learning Materials</div>
+          <h3 class="section-title text-white mb-15">This Book Will Help You To Learn Various Types Of Design Techniques</h3>
+          <div class="bottom-icon">
+            <span class="icon-circle"></span>
+          </div>
+        </div>
+        <!-- Sub Section Title Ends -->
+        <!-- Buttons Start -->
+        <div data-uk-grid="">
+          <div class="uk-width-1-2@s">
+            <div data-uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
+              <a href="" target="_self" class="theme-btn theme-btn-lg theme-btn-white theme-btn-fullwidth">
+                <span class="theme-btn-text">Purchase Now</span>
+              </a>
+            </div>
+          </div>
+          <div class="uk-width-1-2@s">
+            <div data-uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
+              <a href="" target="_self" class="theme-btn theme-btn-lg theme-btn-primary theme-btn-fullwidth">
+                <span class="theme-btn-text">Get It On Amazon</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Buttons End -->
+      </div>
+    </div>
+    <!-- Call To Action Ends -->
+    <div class="py-120 bg-gray-100">
+      <div class="uk-container">
+        <!-- Sub Section Title Starts -->
+        <div class="sub-section-title-cont section-title-centered mb-80" data-uk-scrollspy="cls: uk-animation-slide-top-medium; repeat: true">
+          <h3 class="section-title mb-15">What Will You Learn</h3>
+          <div class="bottom-icon">
+            <span class="icon-circle"></span>
+          </div>
+        </div>
+        <!-- Sub Section Title Ends -->
+        <!-- Content Boxes Start -->
+        <div data-uk-grid="" data-uk-scrollspy="cls: uk-animation-fade; target: .content-box-two; delay: 200; repeat: true">
+          <!-- Box Starts -->
+          <div class="uk-width-1-2@s uk-width-1-3@m">
+            <div class="content-box-two">
+              <div class="icon-box">
+                <span class="dance_on_hover">
+                  <i class="fa-solid fa-pen-ruler"></i>
+                </span>
+              </div>
+              <h4 class="title">
+                UI Design
+              </h4>
+              <div class="box-desc">
+                Phasellus eleifend luctus aliquam. Nullam vel mollis augue. Morbi suscipit ex non tellus laoreet sollicitudin quis at velit.
+              </div>
+            </div>
+          </div>
+          <!-- Box Ends -->
+          <!-- Box Starts -->
+          <div class="uk-width-1-2@s uk-width-1-3@m">
+            <div class="content-box-two">
+              <div class="icon-box">
+                <span class="dance_on_hover">
+                  <i class="fa-solid fa-paintbrush"></i>
+                </span>
+              </div>
+              <h4 class="title">
+                Art Tips
+              </h4>
+              <div class="box-desc">
+                Phasellus eleifend luctus aliquam. Nullam vel mollis augue. Morbi suscipit ex non tellus laoreet sollicitudin quis at velit.
+              </div>
+            </div>
+          </div>
+          <!-- Box Ends -->
+          <!-- Box Starts -->
+          <div class="uk-width-1-2@s uk-width-1-3@m">
+            <div class="content-box-two">
+              <div class="icon-box">
+                <span class="dance_on_hover">
+                  <i class="fa-solid fa-camera"></i>
+                </span>
+              </div>
+              <h4 class="title">
+                Photography
+              </h4>
+              <div class="box-desc">
+                Phasellus eleifend luctus aliquam. Nullam vel mollis augue. Morbi suscipit ex non tellus laoreet sollicitudin quis at velit.
+              </div>
+            </div>
+          </div>
+          <!-- Box Ends -->
+        </div>
+        <!-- Content Boxes End -->
+      </div>
+    </div>
+  </section>
+  <!-- Section About Ends -->
+
+  <!-- Section Chapter Starts -->
+  <section id="chapters" class="page-section">
+    <div class="py-120">
+      <div class="uk-container">
+        <!-- Section Title Starts -->
+        <div class="section-title-cont section-title-centered mb-80" data-uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true">
+          <div class="section-tag-line mb-15">
+            <div class="tag-before"></div>
+            Book Summary
+            <div class="tag-after"></div>
+          </div>
+          <h2 class="section-title">
+            Chapters We've Covered
+          </h2>
+        </div>
+        <!-- Section Title Ends -->
+        <!-- Vertical Tabs Start -->
+        <div data-uk-grid="" data-uk-scrollspy="cls: uk-animation-fade; repeat: true">
+          <div class="uk-width-1-4@m">
+            <ul class="vertical-tab-list" data-uk-tab="connect: #chapter-summary; animation: uk-animation-fade">
+              <li>
+                <a href="#">Chapter 01</a>
+              </li>
+              <li>
+                <a href="#">Chapter 02</a>
+              </li>
+              <li>
+                <a href="#">Chapter 03</a>
+              </li>
+              <li>
+                <a href="#">Chapter 04</a>
+              </li>
+              <li>
+                <a href="#">Chapter 05</a>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-width-3-4@m">
+            <ul id="chapter-summary" class="uk-switcher">
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis, arcu ac pulvinar ornare, erat massa volutpat augue, id tristique nibh nisl eu felis. Etiam non dui accumsan risus lacinia venenatis eget eget eros. Duis maximus nisl nec magna molestie, at vehicula magna blandit. Proin urna orci, finibus eget quam in, porttitor consequat felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed erat in magna ullamcorper dictum quis ut sapien.
+                </p>
+                <p>
+                  Donec eget neque sem. Suspendisse ut est urna. Suspendisse et eleifend massa. Ut lacinia lorem in commodo posuere. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam posuere elit ut tortor varius convallis at sed velit. Quisque aliquet massa in feugiat pharetra. Nunc ex ligula, ultricies quis ornare at, pulvinar in mi. Mauris lectus libero, hendrerit nec hendrerit eget, maximus non enim.
+                </p>
+                <p>
+                  Phasellus venenatis leo justo, quis venenatis lacus aliquam vitae. Morbi interdum, enim sit amet ullamcorper scelerisque, mi lorem ornare erat, non posuere ante odio in dolor. Phasellus sit amet orci velit. Morbi ornare rhoncus dui a porta. Vestibulum semper risus nulla, vel scelerisque elit consectetur in.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Phasellus pretium mi eu felis pretium pellentesque. Proin in consectetur massa. Sed vestibulum augue quis lectus scelerisque eleifend. Nam id aliquam risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus a enim leo. Sed auctor consequat ipsum, et mattis mi molestie id. Quisque nec maximus nulla.
+                </p>
+                <p>
+                  Mauris at eros fermentum, laoreet tortor eu, facilisis dui. Vivamus eu risus dignissim, faucibus ligula at, semper metus. Sed mollis, leo ut finibus cursus, tellus quam eleifend sapien, ut fringilla urna lacus eget nisi. Aenean mollis dapibus dui at venenatis. Nunc vehicula nibh sed porta malesuada. Nam placerat, tortor elementum consequat venenatis, ex velit scelerisque arcu, eget dapibus sem dui id ante. Vestibulum tincidunt tincidunt turpis id mollis. Fusce vel maximus tellus. Vestibulum efficitur nunc felis, ut sagittis urna laoreet eget. Donec dolor nunc, sollicitudin at tempus quis, dictum vulputate nisl. Mauris posuere lectus at nulla mollis scelerisque. Vestibulum rhoncus, dui sed iaculis condimentum, urna leo vestibulum nibh, eget ultrices lectus erat et dolor. Sed quis nunc tincidunt mauris sollicitudin lacinia.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Vestibulum luctus velit in urna euismod rutrum. Sed gravida felis in mauris posuere mattis. Sed elementum, felis eu hendrerit lobortis, odio eros dignissim turpis, ac ultricies tortor tellus et arcu. In tempor dapibus augue eu porta. Aliquam erat volutpat. Ut tincidunt in ipsum ut convallis. Sed quis metus non lectus vulputate pharetra id sed felis. Aliquam luctus sem arcu. Nullam elit quam, egestas quis viverra sed, pulvinar sit amet turpis.
+                </p>
+                <p>
+                  Duis ut massa sit amet ligula vulputate gravida. Morbi congue, augue eget laoreet consectetur, ipsum odio interdum quam, ut gravida lectus metus quis turpis. Ut at tellus malesuada, consectetur dolor eu, finibus mauris. Aenean consequat, enim vulputate porttitor ornare, massa sem laoreet arcu, sed imperdiet dui est ac nunc. Praesent tempus orci non mi vulputate porttitor.
+                </p>
+                <p>
+                  Etiam odio leo, volutpat non ante vitae, tempus iaculis risus. Curabitur elementum suscipit commodo. Phasellus id pharetra lectus. Proin pharetra leo eu dignissim commodo. Donec rutrum pretium lacus, non viverra nisl elementum at. Vestibulum aliquet nisi lorem, non eleifend turpis facilisis sed. Vestibulum sed risus eget tellus faucibus tempus quis non purus. Maecenas vel dui elementum, pharetra eros ut, ultrices nisl.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Morbi eu mollis nisl, a ornare turpis. Donec a mattis elit. Aenean quis tristique lectus. Cras ullamcorper aliquam lorem rutrum placerat. Suspendisse a eleifend mi. Morbi viverra, dolor eu ornare feugiat, nulla nibh eleifend libero, at fringilla lectus risus ut metus. Cras viverra justo bibendum, ullamcorper lacus at, varius tellus. Nulla facilisi. Morbi facilisis dolor eu risus faucibus cursus. Nullam ac commodo augue, sit amet lacinia mauris. Pellentesque consectetur quis nisl a tincidunt. Integer suscipit tellus at molestie condimentum. Duis eu arcu sed leo auctor laoreet ac ut metus. Duis pharetra, nunc at feugiat accumsan, est mi dictum metus, ut accumsan nisi orci a velit. Cras quis imperdiet lorem, at auctor tortor.
+                </p>
+                <p>
+                  Vestibulum id semper diam, et aliquam neque. Donec sed magna et leo hendrerit consequat sit amet nec velit. Proin lobortis est nec massa commodo, vel lacinia diam auctor. Duis porta magna ac facilisis eleifend. Etiam interdum purus et nunc ultricies rutrum. Donec porttitor, orci ac varius tempor, ligula elit auctor diam, a aliquam justo nunc ac sem. Aliquam vel malesuada justo, et sodales massa. Aliquam lobortis augue a urna aliquet, quis eleifend nulla rutrum. Nam nec quam quis sapien consequat lacinia eget in orci.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Ut sed ipsum elit. Donec odio odio, elementum quis nulla ut, tempus convallis sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in lectus sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam accumsan leo neque, eget blandit nisl ultricies vitae. Nunc et elit bibendum lacus vehicula varius. Nulla sit amet viverra sem. Pellentesque sollicitudin a sem in pretium. Quisque egestas quis enim id imperdiet. Morbi volutpat, dui vitae dictum consequat, tortor ipsum rhoncus magna, at dapibus est elit vel leo. Mauris a eleifend orci, sit amet commodo leo.
+                </p>
+                <p>
+                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur volutpat justo eget justo pulvinar, quis blandit nulla tincidunt. Aliquam erat volutpat. Etiam congue commodo mauris commodo rhoncus. Proin mollis nulla ultrices leo tempus, quis ultricies ipsum posuere. Proin accumsan quam nec lectus vehicula tristique. Maecenas iaculis eros facilisis, auctor dui nec, venenatis massa. Maecenas euismod aliquet arcu. Fusce a arcu magna. Morbi massa ex, molestie ac scelerisque vel, eleifend ut ligula. Nunc in arcu lorem. Etiam elementum purus tincidunt enim lobortis faucibus.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Vertical Tabs End -->
+      </div>
+    </div>
+
+    <div class="py-120 bg-gray-100">
+      <div class="uk-container">
+        <!-- Sub Section Title Starts -->
+        <div class="sub-section-title-cont section-title-centered mb-80" data-uk-scrollspy="cls: uk-animation-slide-top-medium; repeat: true">
+          <h3 class="section-title mb-15">Read Some Free Pages</h3>
+          <div class="bottom-icon">
+            <span class="icon-circle"></span>
+          </div>
+        </div>
+        <!-- Sub Section Title Ends -->
+        <!-- Horizontal Accordion Starts -->
+        <div class="horizontal-accordion uk-clearfix" id="chapter-preview" data-uk-scrollspy="cls: uk-animation-fade; repeat: true">
+          <div class="h-acc-item active" style="background-image: url('static/image/page1.jpg');">
+            <h4 class="h-acc-title">Page 01</h4>
+            <div class="h-acc-overlay" data-uk-lightbox="uk-lightbox">
+              <a class="h-acc-zoom-link" href="static/file/page-1-details.jpg">
+                <i class="fa-solid fa-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="h-acc-item" style="background-image: url('static/image/page2.jpg');">
+            <h4 class="h-acc-title">Page 02</h4>
+            <div class="h-acc-overlay" data-uk-lightbox="uk-lightbox">
+              <a class="h-acc-zoom-link" href="static/file/page-2-details.jpg">
+                <i class="fa-solid fa-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="h-acc-item" style="background-image: url('static/image/page3.jpg');">
+            <h4 class="h-acc-title">Page 03</h4>
+            <div class="h-acc-overlay" data-uk-lightbox="uk-lightbox">
+              <a class="h-acc-zoom-link" href="static/file/page-3-details.jpg">
+                <i class="fa-solid fa-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="h-acc-item" style="background-image: url('static/image/page4.jpg');">
+            <h4 class="h-acc-title">Page 04</h4>
+            <div class="h-acc-overlay" data-uk-lightbox="uk-lightbox">
+              <a class="h-acc-zoom-link" href="static/file/page-4-details.jpg">
+                <i class="fa-solid fa-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="h-acc-item" style="background-image: url('static/image/page5.jpg');">
+            <h4 class="h-acc-title">Page 05</h4>
+            <div class="h-acc-overlay" data-uk-lightbox="uk-lightbox">
+              <a class="h-acc-zoom-link" href="static/file/page-5-details.jpg">
+                <i class="fa-solid fa-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="h-acc-item" style="background-image: url('static/image/page6.jpg');">
+            <h4 class="h-acc-title">Page 06</h4>
+            <div class="h-acc-overlay" data-uk-lightbox="uk-lightbox">
+              <a class="h-acc-zoom-link" href="static/file/page-6-details.jpg">
+                <i class="fa-solid fa-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="h-acc-item" style="background-image: url('static/image/page7.jpg');">
+            <h4 class="h-acc-title">Page 07</h4>
+            <div class="h-acc-overlay" data-uk-lightbox="uk-lightbox">
+              <a class="h-acc-zoom-link" href="static/file/page-7-details.jpg">
+                <i class="fa-solid fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Horizontal Accordion Ends -->
+      </div>
+    </div>
+    <!-- Call To Action Starts -->
+    <div class="banner-dark-with-bg-img py-120" style="background-image: url('static/image/contact-bg.jpg');">
+      <div class="uk-container">
+        <div class="uk-flex-middle" data-uk-grid="">
+          <!-- Action Text Starts -->
+          <div class="uk-width-1-2@s uk-width-2-3@m">
+            <div class="call-to-action" data-uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
+              <h3 class="action-title text-white">Contact Us To Get A Free Chapter Of This Awesome Learning Book</h3>
+            </div>
+          </div>
+          <!-- Action Text Ends -->
+          <!-- Action Buttons Start -->
+          <div class="uk-width-1-2@s uk-width-1-3@m">
+            <div data-uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
+              <div class="py-10">
+                <a href="#contact" data-uk-scroll="offset: 80;" class="theme-btn theme-btn-lg theme-btn-primary theme-btn-fullwidth">
+                  <span class="theme-btn-text">Contact Now</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Action Button Ends -->
+        </div>
+      </div>
+    </div>
+    <!-- Call To Action Ends -->
+  </section>
+  <!-- Section Chapter Ends -->
+
+  <!-- Section Author Starts -->
+  <section id="author" class="page-section">
+    <div class="py-120">
+      <div class="uk-container">
+        <!-- Section Title Starts -->
+        <div class="section-title-cont section-title-centered mb-80" data-uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true">
+          <div class="section-tag-line mb-15">
+            <div class="tag-before"></div>
+            The Author
+            <div class="tag-after"></div>
+          </div>
+          <h2 class="section-title">
+            Ann Hays
+          </h2>
+        </div>
+        <!-- Section Title Ends -->
+        <div class="uk-flex-middle" data-uk-grid="">
+          <!-- Author Image Starts -->
+          <div class="uk-width-1-2@m">
+            <div data-uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
+              <img class="border-radius-8" src="static/picture/author-one.jpg" alt="Author">
+            </div>
+          </div>
+          <!-- Author Image Endss -->
+          <!-- Author Info Starts -->
+          <div class="uk-width-1-2@m">
+            <div class="mt-40 mt-md-0" data-uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+              <p>Nam tempus felis non facilisis rhoncus. Maecenas lectus justo, consequat ac tortor eget, varius condimentum turpis. Duis tristique ligula urna, quis sollicitudin leo rutrum eget. Sed ut lacus sit amet metus auctor vehicula in vel tortor. Pellentesque sit amet mi vel turpis egestas mattis.
+              </p>
+              <p>Ut vitae lorem rhoncus diam hendrerit pharetra nec eu erat. In efficitur rutrum augue at fermentum. Quisque efficitur diam a quam vulputate, a hendrerit nunc tempus. Proin malesuada ante quis elit malesuada.</p>
+              <p>Suspendisse vel purus nibh. Nam tempor neque eros, efficitur rutrum libero tempus eget. Nunc gravida purus et consectetur feugiat. Suspendisse sit amet consequat nisl. Proin vitae aliquet est, sed lacinia erat. Maecenas porttitor lectus id nibh malesuada consequat. Suspendisse tempus, orci tincidunt venenatis luctus, libero elit elementum erat, non pharetra orci ex a quam. Maecenas at ipsum condimentum, placerat est ut, mollis sapien.</p>
+              <div class="mt-40">
+                <div class="uk-grid-small" data-uk-grid="">
+                  <div class="uk-width-1-2@s">
+                    <h6 class="mb-10">Style:
+                    </h6>
+                    <div>Science, Technology</div>
+                  </div>
+                  <div class="uk-width-1-2@s">
+                    <h6 class="mb-10">Study:
+                    </h6>
+                    <div>Adler University</div>
+                  </div>
+                  <div class="uk-width-1-2@s">
+                    <h6 class="mb-10">Country:
+                    </h6>
+                    <div>USA</div>
+                  </div>
+                  <div class="uk-width-1-2@s">
+                    <h6 class="mb-10">Languages:
+                    </h6>
+                    <div>English, Spanish</div>
+                  </div>
+                  <div class="uk-width-1-2@s">
+                    <h6 class="mb-10">Website:
+                    </h6>
+                    <div>www.ann-hays.com</div>
+                  </div>
+                  <div class="uk-width-1-2@s">
+                    <h6 class="mb-10">Email:
+                    </h6>
+                    <div>ann@lekhak.com</div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-40">
+                <div class="uk-flex uk-flex-wrap uk-flex-middle gap-40">
+                  <div class="theme-social-boxed color-primary">
+                    <ul>
+                      <li>
+                        <a href="" target="_self" rel="nofollow">
+                          <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" target="_self" rel="nofollow">
+                          <i class="fa-brands fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" target="_self" rel="nofollow">
+                          <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" target="_self" rel="nofollow">
+                          <i class="fa-brands fa-instagram"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <a href="" class="theme-btn theme-btn-md theme-btn-dark">
+                      <span class="theme-btn-text">Download Resume</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Author Info Ends -->
+        </div>
+      </div>
+    </div>
+    <div class="banner-dark-with-bg-img py-120" style="background-image: url('static/image/abstract-bg2.jpg');">
+      <div class="uk-container">
+        <!-- Sub Section Title Starts -->
+        <div class="sub-section-title-cont section-title-centered mb-80" data-uk-scrollspy="cls: uk-animation-slide-top-medium; repeat: true">
+          <h3 class="section-title text-white mb-15">Others Books By This Author</h3>
+          <div class="bottom-icon">
+            <span class="icon-circle"></span>
+          </div>
+        </div>
+        <!-- Sub Section Title Ends -->
+        <!-- Other Books Start -->
+        <div data-uk-slider="autoplay: true; autoplay-interval: 5000" data-uk-scrollspy="cls: uk-animation-fade; repeat: true">
+          <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
+            <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-4@m uk-grid">
+              <li>
+                <a href="" target="_self">
+                  <img class="border-radius-8" src="static/picture/book2.jpg" alt="Book">
+                </a>
+              </li>
+              <li>
+                <a href="" target="_self">
+                  <img class="border-radius-8" src="static/picture/book3.jpg" alt="Book">
+                </a>
+              </li>
+              <li>
+                <a href="" target="_self">
+                  <img class="border-radius-8" src="static/picture/book4.jpg" alt="Book">
+                </a>
+              </li>
+              <li>
+                <a href="" target="_self">
+                  <img class="border-radius-8" src="static/picture/book5.jpg" alt="Book">
+                </a>
+              </li>
+              <li>
+                <a href="" target="_self">
+                  <img class="border-radius-8" src="static/picture/book6.jpg" alt="Book">
+                </a>
+              </li>
+              <li>
+                <a href="" target="_self">
+                  <img class="border-radius-8" src="static/picture/book7.jpg" alt="Book">
+                </a>
+              </li>
+              <li>
+                <a href="" target="_self">
+                  <img class="border-radius-8" src="static/picture/book8.jpg" alt="Book">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <ul class="uk-slider-nav theme-dot-nav uk-flex-center mt-40"></ul>
+        </div>
+        <!-- Other Books End -->
+      </div>
+    </div>
+  </section>
+  <!-- Section Author Ends -->
+
+  <!-- Section Review Starts -->
+  <section id="reviews" class="page-section">
+    <div class="py-120 bg-gray-100">
+      <div class="uk-container">
+        <!-- Section Title Starts -->
+        <div class="section-title-cont section-title-centered mb-80" data-uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true">
+          <div class="section-tag-line mb-15">
+            <div class="tag-before"></div>
+            Customers' Feedback
+            <div class="tag-after"></div>
+          </div>
+          <h2 class="section-title">
+            Happy Readers' Reviews
+          </h2>
+        </div>
+        <!-- Section Title Ends -->
+        <!-- Testimonials Slider Starts -->
+        <div data-uk-slider="autoplay: true; autoplay-interval: 5000" data-uk-scrollspy="cls: uk-animation-fade; repeat: true">
+          <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
+            <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid">
+              <li>
+                <div class="review-box-two">
+                  <div class="review-text">
+                    Etiam commodo at neque ut tempus. Aliquam sit amet dolor ac ligula posuere rutrum. Nunc erat eros, tincidunt mollis egestas et, tristique at enim. Nulla cursus quam vitae ipsum mattis posuere. Nam ultrices et nisi non faucibus. 
+                  </div>
+                  <div class="review-info">
+                    <div class="reviewer-img">
+                      <img src="static/picture/testimonial1.jpg" alt="Testimonial">
+                    </div>
+                    <div class="reviewer-details">
+                      <h5 class="mb-5">Gary Pedersen</h5>
+                      <span class="designation">Photographer</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="review-box-two">
+                  <div class="review-text">
+                    Etiam commodo at neque ut tempus. Aliquam sit amet dolor ac ligula posuere rutrum. Nunc erat eros, tincidunt mollis egestas et, tristique at enim. Nulla cursus quam vitae ipsum mattis posuere. Nam ultrices et nisi non faucibus. 
+                  </div>
+                  <div class="review-info">
+                    <div class="reviewer-img">
+                      <img src="static/picture/testimonial2.jpg" alt="Testimonial">
+                    </div>
+                    <div class="reviewer-details">
+                      <h5 class="mb-5">Sharon Nichols</h5>
+                      <span class="designation">UI Designer</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="review-box-two">
+                  <div class="review-text">
+                    Etiam commodo at neque ut tempus. Aliquam sit amet dolor ac ligula posuere rutrum. Nunc erat eros, tincidunt mollis egestas et, tristique at enim. Nulla cursus quam vitae ipsum mattis posuere. Nam ultrices et nisi non faucibus. 
+                  </div>
+                  <div class="review-info">
+                    <div class="reviewer-img">
+                      <img src="static/picture/testimonial3.jpg" alt="Testimonial">
+                    </div>
+                    <div class="reviewer-details">
+                      <h5 class="mb-5">Robert Foster</h5>
+                      <span class="designation">UX Designer</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="review-box-two">
+                  <div class="review-text">
+                    Etiam commodo at neque ut tempus. Aliquam sit amet dolor ac ligula posuere rutrum. Nunc erat eros, tincidunt mollis egestas et, tristique at enim. Nulla cursus quam vitae ipsum mattis posuere. Nam ultrices et nisi non faucibus. 
+                  </div>
+                  <div class="review-info">
+                    <div class="reviewer-img">
+                      <img src="static/picture/testimonial4.jpg" alt="Testimonial">
+                    </div>
+                    <div class="reviewer-details">
+                      <h5 class="mb-5">Candy Estrada</h5>
+                      <span class="designation">Web Designer</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="review-box-two">
+                  <div class="review-text">
+                    Etiam commodo at neque ut tempus. Aliquam sit amet dolor ac ligula posuere rutrum. Nunc erat eros, tincidunt mollis egestas et, tristique at enim. Nulla cursus quam vitae ipsum mattis posuere. Nam ultrices et nisi non faucibus. 
+                  </div>
+                  <div class="review-info">
+                    <div class="reviewer-img">
+                      <img src="static/picture/testimonial5.jpg" alt="Testimonial">
+                    </div>
+                    <div class="reviewer-details">
+                      <h5 class="mb-5">Seth Villa</h5>
+                      <span class="designation">SEO Expert</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="review-box-two">
+                  <div class="review-text">
+                    Etiam commodo at neque ut tempus. Aliquam sit amet dolor ac ligula posuere rutrum. Nunc erat eros, tincidunt mollis egestas et, tristique at enim. Nulla cursus quam vitae ipsum mattis posuere. Nam ultrices et nisi non faucibus. 
+                  </div>
+                  <div class="review-info">
+                    <div class="reviewer-img">
+                      <img src="static/picture/testimonial6.jpg" alt="Testimonial">
+                    </div>
+                    <div class="reviewer-details">
+                      <h5 class="mb-5">Allen Cho</h5>
+                      <span class="designation">Graphics Designer</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <ul class="uk-slider-nav theme-dot-nav uk-flex-center mt-40"></ul>
+        </div>
+        <!-- Testimonials Slider Ends -->
+      </div>
+    </div>
+    <!-- Counter Starts -->
+    <div class="banner-dark-with-bg-img py-120" style="background-image: url('static/image/counter-bg.jpg');">
+      <div class="uk-container">
+        <div data-uk-grid="">
+          <div class="uk-width-1-2@s uk-width-1-4@m">
+            <div class="counter-box-two">
+              <div class="counter-icon">
+                <i class="fa-solid fa-copy"></i>
+              </div>
+              <div class="counter-desc">
+                <div class="counter-number text-white mb-15">
+                  <span class="scroll-counter" data-counter-time="3000">30</span>K
+                </div>
+                <div class="meta-text meta-text-16 font-weight-600 text-white">
+                  Copies Sold
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-1-2@s uk-width-1-4@m">
+            <div class="counter-box-two">
+              <div class="counter-icon">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <div class="counter-desc">
+                <div class="counter-number text-white mb-15">
+                  <span class="scroll-counter" data-counter-time="3000">15</span>
+                </div>
+                <div class="meta-text meta-text-16 font-weight-600 text-white">
+                  Award Achieved
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-1-2@s uk-width-1-4@m">
+            <div class="counter-box-two">
+              <div class="counter-icon">
+                <i class="fa-solid fa-book-open-reader"></i>
+              </div>
+              <div class="counter-desc">
+                <div class="counter-number text-white mb-15">
+                  <span class="scroll-counter" data-counter-time="3000">10</span>K
+                </div>
+                <div class="meta-text meta-text-16 font-weight-600 text-white">
+                  Active Readers
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-1-2@s uk-width-1-4@m">
+            <div class="counter-box-two">
+              <div class="counter-icon">
+                <i class="fa-regular fa-hourglass"></i>
+              </div>
+              <div class="counter-desc">
+                <div class="counter-number text-white mb-15">
+                  <span class="scroll-counter" data-counter-time="3000">50</span>K
+                </div>
+                <div class="meta-text meta-text-16 font-weight-600 text-white">
+                  Reading Hours
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Counter Ends -->
+  </section>
+  <!-- Section Review Ends -->
+
+  <!-- Section Pricing Starts -->
+  <section id="pricing" class="page-section">
+    <div class="py-120">
+      <div class="uk-container">
+        <!-- Section Title Starts -->
+        <div class="section-title-cont section-title-centered mb-80" data-uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true">
+          <div class="section-tag-line mb-15">
+            <div class="tag-before"></div>
+            Affordable
+            <div class="tag-after"></div>
+          </div>
+          <h2 class="section-title">
+            Pricing Plan
+          </h2>
+        </div>
+        <!-- Section Title Ends -->
+        <!-- Tables Start -->
+        <div data-uk-grid="" data-uk-scrollspy="cls: uk-animation-fade; target: .pricing-table-two; delay: 200; repeat: true">
+          <div class="uk-width-1-3@m">
+            <div class="pricing-table-two">
+              <div class="pricing-header mb-40">
+                <h3 class="h4 pricing-title">Free</h3>
+                <div class="price">$0.00<span>/ Month</span></div>
+              </div>
+              <div class="pricing-body mb-40">
+                <ul class="pricing-features">
+                  <li>PDF Version</li>
+                  <li>Free Subscription</li>
+                  <li>EPUB Version</li>
+                  <li>Hardcover Book</li>
+                  <li>All Chapters</li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <a href="" class="theme-btn theme-btn-lg theme-btn-primary theme-btn-fullwidth">
+                  <span class="theme-btn-text">Get Started</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-1-3@m">
+            <div class="pricing-table-two">
+              <div class="pricing-header mb-40">
+                <h3 class="h4 pricing-title">Bundle</h3>
+                <div class="price">$35.00<span>/ Month</span></div>
+              </div>
+              <div class="pricing-body mb-40">
+                <ul class="pricing-features">
+                  <li>PDF Version</li>
+                  <li>Free Subscription</li>
+                  <li>EPUB Version</li>
+                  <li>Hardcover Book</li>
+                  <li>All Chapters</li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <a href="" class="theme-btn theme-btn-lg theme-btn-primary theme-btn-fullwidth">
+                  <span class="theme-btn-text">Get Started</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-1-3@m">
+            <div class="pricing-table-two">
+              <div class="pricing-header mb-40">
+                <h3 class="h4 pricing-title">Hardcover</h3>
+                <div class="price">$99.00<span>/ Month</span></div>
+              </div>
+              <div class="pricing-body mb-40">
+                <ul class="pricing-features">
+                  <li>PDF Version</li>
+                  <li>Free Subscription</li>
+                  <li>EPUB Version</li>
+                  <li>Hardcover Book</li>
+                  <li>All Chapters</li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <a href="" class="theme-btn theme-btn-lg theme-btn-primary theme-btn-fullwidth">
+                  <span class="theme-btn-text">Get Started</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Tables End -->
+      </div>
+    </div>
+  </section>
+  <!-- Section Pricing Ends -->
+
+  <!-- Section Contact Starts -->
+  <section id="contact" class="page-section">
+    <div class="banner-dark-with-bg-img py-120" style="background-image: url('static/image/contact-bg2.jpg');">
+      <div class="uk-container">
+        <!-- Section Title Starts -->
+        <div class="section-title-cont section-title-centered mb-80" data-uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true">
+          <div class="section-tag-line mb-15">
+            <div class="tag-before"></div>
+            Contact Us For
+            <div class="tag-after"></div>
+          </div>
+          <h2 class="section-title text-white">
+            Query &amp; Support
+          </h2>
+        </div>
+        <!-- Section Title Ends -->
+        <!-- Contact Boxes Start -->
+        <div data-uk-grid="" data-uk-scrollspy="cls: uk-animation-fade; target: .contact-info-box-two; delay: 200; repeat: true">
+          <div class="uk-width-1-3@m">
+            <div class="contact-info-box-two">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <h4 class="text-white mt-15">Location</h4>
+              <div class="mt-30 text-white">
+                3951 S 19th St, Grand Forks,<br>
+                North Dakota 58201, USA 
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-1-3@m">
+            <div class="contact-info-box-two">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <h4 class="text-white mt-15">Phone</h4>
+              <div class="mt-30 text-white">
+                +1 (701) 228-2816<br>
+                +1 (800) 228-2816 
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-1-3@m">
+            <div class="contact-info-box-two">
+              <div class="contact-info-icon">
+                <i class="fa-regular fa-envelope-open"></i>
+              </div>
+              <h4 class="text-white mt-15">Email</h4>
+              <div class="mt-30 text-white">
+                info@lekhak.com<br>
+                admin@lekhak.com
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Contact Boxes End -->
+        <!-- Sub Section Title Starts -->
+        <div class="sub-section-title-cont section-title-centered mt-80 mb-40" data-uk-scrollspy="cls: uk-animation-slide-top-medium; repeat: true">
+          <h3 class="section-title text-white mb-15">Follow Us On Social Media</h3>
+          <div class="bottom-icon">
+            <span class="icon-circle"></span>
+          </div>
+        </div>
+        <!-- Sub Section Title Ends -->
+        <!-- Social Icons Start -->
+        <div class="theme-social-boxed color-primary" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+          <ul class="uk-flex-center">
+            <li>
+              <a href="" target="_self" rel="nofollow">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="" target="_self" rel="nofollow">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="" target="_self" rel="nofollow">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="" target="_self" rel="nofollow">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Social Icons Ends -->
+      </div>
+    </div>
+    <div class="py-120 bg-gray-100">
+      <div class="uk-container">
+        <div data-uk-grid="">
+          <!-- Contact Form Starts -->
+          <div class="uk-width-1-2@m">
+            <div data-uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
+              <!-- Sub Section Title Starts -->
+            <div class="sub-section-title-cont mb-40">
+              <h3 class="section-title mb-15">Leave Us A Reply</h3>
+              <div class="bottom-icon">
+                <span class="icon-circle-left"></span>
+              </div>
+            </div>
+            <!-- Sub Section Title Ends -->
+            <form>
+              <div class="form-group mb-25">
+                <div class="input-icon">
+                  <i class="fa-regular fa-user"></i>
+                </div>
+                <input type="text" class="form-input" placeholder="Name">
+              </div>
+              <div class="form-group mb-25">
+                <div class="input-icon">
+                  <i class="fa-regular fa-envelope-open"></i>
+                </div>
+                <input type="email" class="form-input" placeholder="Email">
+              </div>
+              <div class="form-group mb-25">
+                <div class="input-icon">
+                  <i class="fa-regular fa-file-lines"></i>
+                </div>
+                <input type="text" class="form-input" placeholder="Subject">
+              </div>
+              <div class="form-group mb-25">
+                <div class="input-icon">
+                  <i class="fa-regular fa-comments"></i>
+                </div>
+                <textarea rows="4" class="form-input" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="theme-btn theme-btn-md theme-btn-primary">
+                  <span class="theme-btn-text">Send Message</span></button>
+              </div>
+            </form>
+            </div>
+          </div>
+          <!-- Contact Form Ends -->
+          <!-- FAQs Start -->
+          <div class="uk-width-1-2@m">
+            <div data-uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
+              <!-- Sub Section Title Starts -->
+              <div class="sub-section-title-cont mb-40 mt-40 mt-sm-0">
+                <h3 class="section-title mb-15">Frequently Asked Questions</h3>
+                <div class="bottom-icon">
+                  <span class="icon-circle-left"></span>
+                </div>
+              </div>
+              <!-- Sub Section Title Ends -->
+              <ul data-uk-accordion="uk-accordion">
+                <li class="uk-open">
+                  <a class="uk-accordion-title" href="#">Who Should Read This Book?</a>
+                  <div class="uk-accordion-content">
+                    <p>Nullam posuere libero nunc, non elementum arcu semper non. Fusce pulvinar porttitor felis, vitae egestas nibh tincidunt quis. Sed eu dui euismod libero consectetur dignissim.</p>
+                  </div>
+                </li>
+                <li>
+                  <a class="uk-accordion-title" href="#">Is This Book A Right Choice For You?</a>
+                  <div class="uk-accordion-content">
+                    <p>Mauris aliquam, dolor nec euismod placerat, tellus elit tristique ex, id viverra nunc ex id ante. Nunc blandit imperdiet libero non porta. Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </li>
+                <li>
+                  <a class="uk-accordion-title" href="#">What Will You Get In This Book?</a>
+                  <div class="uk-accordion-content">
+                    <p>Morbi sagittis commodo sagittis. Nam sed neque sit amet ante tristique sollicitudin. Sed pulvinar augue ac lacinia fermentum. Donec sit amet turpis nec dui fringilla luctus vel ut urna.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- FAQs End -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section Contact Ends -->
+
+  <!-- Footer Starts -->
+  <footer class="footer">
+    <div class="bg-gray-900 py-120">
+      <div class="uk-container">
+        <div class="footer-logo uk-text-center">
+          <a href="index.html">
+            <img src="static/picture/logo-white.png" alt="Lekhak">
+          </a>
+        </div>
+        <nav class="footer-nav mt-25">
+          <ul>
+            <li>
+              <a href="" data-uk-scroll="uk-scroll">Home</a>
+            </li>
+            <li>
+              <a href="#about" data-uk-scroll="offset: 80;">About</a>
+            </li>
+            <li>
+              <a href="#chapters" data-uk-scroll="offset: 80;">Chapters</a>
+            </li>
+            <li>
+              <a href="#author" data-uk-scroll="offset: 80;">Author</a>
+            </li>
+            <li>
+              <a href="#reviews" data-uk-scroll="offset: 80;">Reviews</a>
+            </li>
+            <li>
+              <a href="#pricing" data-uk-scroll="offset: 80;">Pricing</a>
+            </li>
+            <li>
+              <a href="#contact" data-uk-scroll="offset: 80;">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="uk-container">
+      <div class="py-25 uk-text-center">
+        Copyright &copy; 2023.Company name All rights reserved.<a target="_blank" href="https://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Ends -->
+
+  <!-- Back To Top Starts -->
+  <div id="back-to-top">
+    <span id="back-to-top-value">
+      <i class="fa-solid fa-up-long"></i>
+    </span>
+  </div>
+  <!-- Back To Top Ends -->
+
+  <!-- jQuery JS -->
+  <script src="static/js/jquery.js"></script>
+  <!-- UIKIT JS -->
+  <script src="static/js/uikit.min.js"></script>
+  <!-- Counter JS -->
+  <script src="static/js/counter.js"></script>
+  <!-- Back To Top JS -->
+  <script src="static/js/back-to-top.js"></script>
+  <!-- Theme JS -->
+  <script src="static/js/theme.js"></script>
+</body>
+
+</html>
